@@ -1,0 +1,22 @@
+{
+  "name": "paytmnodejs",
+  "version": "1.0.0",
+  "description": "integration of paytm payment gateway in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "latest",
+    "body-parser":"latest",
+    "ejs":"latest",
+    "dotencv":"latest"
+} ,
+  "keywords": [
+    "paytm",
+    "payment",
+    "gateway"
+  ],
+  "author": "Varun Deva",
+  "license": "ISC"
+}

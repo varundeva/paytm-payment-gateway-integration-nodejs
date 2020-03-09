@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Succcess</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <p class="h2">Transaction Succcess</p>
+        </div>
+        <div class="row  mx-5">
+            <div class="mx-auto" style="width: 800px;">
+
+                <table class="table ">
+                    <tbody>
+                        <tr>
+                            <td>GATEWAYNAME</td>
+                            <td><%= data.PAYMENTMODE %></td>
+                        </tr>
+                        <tr>
+                            <td>RESPMSG</td>
+                            <td><%= data.RESPMSG %></td>
+                        </tr>
+                        <tr>
+                            <td>BANKNAME</td>
+                            <td><%= data.BANKNAME %></td>
+                        </tr>
+                        <tr>
+                            <td>PAYMENTMODE</td>
+                            <td><%= data.PAYMENTMODE %></td>
+                        </tr>
+                        <tr>
+                            <td>RESPCODE</td>
+                            <td><%= data.RESPCODE %></td>
+                        </tr>
+                        <tr>
+                            <td>TXNID</td>
+                            <td><%= data.TXNID %></td>
+                        </tr>
+                        <tr>
+                            <td>TXNAMOUNT</td>
+                            <td><%= data.TXNAMOUNT %></td>
+                        </tr>
+                        <tr>
+                            <td>ORDERID</td>
+                            <td><%= data.ORDERID %></td>
+                        </tr>
+                        <tr>
+                            <td>STATUS</td>
+                            <td><%= data.STATUS %></td>
+                        </tr>
+                        <tr>
+                            <td>BANKTXNID</td>
+                            <td><%= data.BANKTXNID %></td>
+                        </tr>
+                        <tr>
+                            <td>TXNDATE</td>
+                            <td><%= data.TXNDATE %></td>
+                        </tr>
+                        %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
+</body>
+
+</html>
