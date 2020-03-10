@@ -10,7 +10,7 @@
     "express": "latest",
     "body-parser":"latest",
     "ejs":"latest",
-    "dotencv":"latest"
+    "dotenv":"latest"
 } ,
   "keywords": [
     "paytm",
